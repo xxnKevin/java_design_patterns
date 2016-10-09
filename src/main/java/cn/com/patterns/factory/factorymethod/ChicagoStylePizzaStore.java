@@ -1,4 +1,4 @@
-package cn.com.patterns.factory.abstractfac;
+package cn.com.patterns.factory.factorymethod;
 
 import cn.com.patterns.factory.Pizza;
 import cn.com.patterns.factory.PizzaType;

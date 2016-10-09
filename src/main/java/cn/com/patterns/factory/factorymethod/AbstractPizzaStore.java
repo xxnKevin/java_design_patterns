@@ -1,10 +1,12 @@
-package cn.com.patterns.factory.abstractfac;
+package cn.com.patterns.factory.factorymethod;
 
 import cn.com.patterns.factory.Pizza;
 
 /**
  * 工厂方法用来处理对象的创建,将实例化行为封装在子类
  * 而客户程序中关于超类的代码就和子类解耦
+ * 这就是一个创建者,只是创建的方法定位抽象,等待子类实现,
+ * 产品Pizza也是一个抽象类,具体的创建者可以自定义创建特定的Pizza
  * @author liwenyi
  *
  */

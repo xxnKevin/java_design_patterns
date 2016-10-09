@@ -1,10 +1,13 @@
-package cn.com.patterns.factory.abstractfac;
+package cn.com.patterns.factory.factorymethod;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import cn.com.patterns.factory.PizzaType;
+import cn.com.patterns.factory.factorymethod.AbstractPizzaStore;
+import cn.com.patterns.factory.factorymethod.ChicagoStylePizzaStore;
+import cn.com.patterns.factory.factorymethod.NYStylePizzaStore;
 
 
 public class AbstractFactoryTest {
